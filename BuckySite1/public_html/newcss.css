@@ -28,7 +28,7 @@ body{
     #cary{
         display: block;
         border: 2px solid black;
-        background: blue;
+        background: -webkit-radial-gradient(center, circle, red 0%, orange 50%);
         padding: 20px;
         margin: 50px auto;  
         text-align: center;
@@ -43,6 +43,7 @@ body{
     
     #text{
         font: bold 30px Century Gothic;
+        text-shadow: rgb(110, 110, 110) 3px 3px 5px
     }
     
     #mel{
